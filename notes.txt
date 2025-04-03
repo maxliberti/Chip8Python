@@ -1,0 +1,12 @@
+--Requirements--
+
+specifications:
+    (memory) 4 kb of RAM
+    (display) 64 x 32 pixels monochrome (black or white)
+    (program counter) called "PC", points at current instruction in memory
+    (index register) called "I", 16-bit, used to point at locations in memory
+    (stack) for 16-bit addresses, which is used to call subroutines/functions and return from them
+    (delay timer) decremented at 60hz until it reaches 0
+    (sound timer) like delay timer but also gives off beeping sound until 0
+    (16 byte sized variable registers) numbered 0 through F hexadecimal, called V0 through VF
+        (VF is also used as a flag register, boolean thing)
